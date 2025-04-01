@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Events() {
   return (
-    <section className="relative bg-[#F5841F] text-white overflow-hidden py-16">
+    <section id="events" className="relative bg-[#F5841F] text-white overflow-hidden py-16">
       {/* Efeito de sobreposição para dar profundidade */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#F5841F]/80 to-[#F5841F]/100 z-0"></div>
       

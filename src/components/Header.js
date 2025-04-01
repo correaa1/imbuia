@@ -12,7 +12,7 @@ export default function Header() {
               História
             </Link>
             <span className="text-white px-1">|</span>
-            <Link href="#cardapio" className="hover:text-amber-300 transition-colors px-2">
+            <Link href="#about" className="hover:text-amber-300 transition-colors px-2">
               Cardápio
             </Link>
             <span className="text-white px-1">|</span>
@@ -20,7 +20,7 @@ export default function Header() {
               Delivery
             </Link>
             <span className="text-white px-1">|</span>
-            <Link href="#reservas" className="hover:text-amber-300 transition-colors px-2">
+            <Link href="#events" className="hover:text-amber-300 transition-colors px-2">
               Reservas
             </Link>
             <span className="text-white px-1">|</span>
@@ -28,7 +28,7 @@ export default function Header() {
               Drinks
             </Link>
             <span className="text-white px-1">|</span>
-            <Link href="#contato" className="hover:text-amber-300 transition-colors px-2">
+            <Link href="#contact" className="hover:text-amber-300 transition-colors px-2">
               Contato
             </Link>
           </nav>

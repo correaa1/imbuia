@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Contact() {
   return (
-    <section className="relative bg-[#F5841F] text-white overflow-hidden py-16">
+    <section id="contact" className="relative bg-[#F5841F] text-white overflow-hidden py-16">
       {/* Efeito de sobreposição para dar profundidade */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#F5841F]/80 to-[#F5841F]/100 z-0"></div>
       
@@ -102,10 +102,10 @@ export default function Contact() {
             
             {/* Coluna de mapa e avaliações à direita */}
             <div>
-              {/* Mapa do Google usando iframe - sem necessidade de API */}
+              {/* Mapa do Google usando iframe - localização atualizada */}
               <div className="rounded-lg overflow-hidden shadow-xl mb-6 h-[400px]">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.7927192890077!2d-48.62057642509576!3d-27.604208975609125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952738278d9d8bf1%3A0x90dfc1c241ecf9d5!2sBAR%20IMBUI%C3%81%20-%20Ra%C3%ADzes%20do%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1699456931303!5m2!1spt-BR!2sbr" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.294682323431!2d-48.61472857497925!3d-27.591795382834837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274914ede6da39%3A0xd60f97ff0216d6b4!2sBAR%20IMBUI%C3%81%20-%20Raizes%20do%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1699482241576!5m2!1spt-BR!2sbr" 
                   width="100%" 
                   height="100%" 
                   style={{border:0}} 
@@ -146,13 +146,13 @@ export default function Contact() {
                     </div>
                   </div>
                   
-                  <div className="flex justify-between items-center">
-                    <p className="text-sm text-gray-700">
+                  <div className="flex flex-col items-center text-center">
+                    <p className="text-sm text-gray-700 mb-3">
                       Veja todas as avaliações de nossos clientes
                     </p>
                     
                     <a 
-                      href="https://www.google.com/search?q=BAR+IMBUI%C3%81+-+Raizes+do+Brasil+Coment%C3%A1rios" 
+                      href="https://www.google.com/search?sca_esv=cd731438e95bc999&sxsrf=AHTn8zq6iElBEgvgMVqTKFrftWl6rs6p5w:1743542672140&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzSFmBfr8zxoLBFPQCdrDKBHmhRm6aA-z5cdQXTpxOjNV2aHaoOZaQX0oDdCnyaZE44sajT4BMJt8taAnpbwANlL3gifUuk8p-TTRC1c8e6OAYIXSZyqqGeTj2K36iLH-CWbZeGo%3D&q=BAR+IMBUI%C3%81+-+Raizes+do+Brasil+Coment%C3%A1rios&sa=X&ved=2ahUKEwjrqf7M4reMAxWoq5UCHecAJPwQ0bkNegQIMBAE&biw=1702&bih=836&dpr=1.1" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block bg-blue-600 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-700 transition-colors text-sm"
