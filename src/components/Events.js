@@ -52,63 +52,63 @@ export default function Events() {
               </div>
             </div>
             
-            {/* Layout do formulário idêntico à imagem de referência */}
-            <div className="md:w-1/2 flex items-start gap-4">
-              {/* Imagem de drink */}
-              <div className="flex-shrink-0 w-32">
-                <div className="rounded-lg overflow-hidden">
+            {/* Layout do formulário ajustado conforme imagem de referência */}
+            <div className="md:w-1/2 flex items-start gap-6">
+              {/* Imagem de drink com altura ajustada para corresponder ao conteúdo */}
+              <div className="flex-shrink-0 w-[200px] h-full">
+                <div className="rounded-lg overflow-hidden h-[340px]">
                   <Image 
-                    src="https://images.unsplash.com/photo-1578338469605-4522a3a239d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" 
+                    src="/images/drinks.png" 
                     alt="Drink especial"
                     width={300}
-                    height={400}
+                    height={800}
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
               
-              {/* Formulário de reserva exatamente como na imagem */}
+              {/* Formulário de reserva com espaçamento ajustado */}
               <div className="flex-grow">
-                <form className="space-y-2.5">
+                <form className="space-y-3">
                   <div>
-                    <label className="block text-xs font-medium mb-1">NOME DA RESERVA</label>
+                    <label className="block text-xs font-semibold mb-1">NOME DA RESERVA</label>
                     <input 
                       type="text" 
                       placeholder="Nome Completo" 
-                      className="w-full px-3 py-2 bg-black/40 rounded-md text-white placeholder-white/60"
+                      className="w-full px-3 py-1 bg-amber-800/70 rounded-2xl text-white placeholder-amber-100/70"
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-xs font-medium mb-1">CONTATO</label>
+                    <label className="block text-xs font-semibold mb-1">CONTATO</label>
                     <input 
                       type="tel" 
                       placeholder="+55" 
-                      className="w-full px-3 py-2 bg-black/40 rounded-md text-white placeholder-white/60"
+                      className="w-full px-3 py-1 bg-amber-800/70 rounded-2xl text-white placeholder-amber-100/70"
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-xs font-medium mb-1">DATA</label>
+                    <label className="block text-xs font-semibold mb-1">DATA</label>
                     <input 
                       type="text" 
                       placeholder="DD/MM/AAAA" 
-                      className="w-full px-3 py-2 bg-black/40 rounded-md text-white placeholder-white/60"
+                      className="w-full px-3 py-1 bg-amber-800/70 rounded-2xl text-white placeholder-amber-100/70"
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-xs font-medium mb-1">HORÁRIO</label>
+                    <label className="block text-xs font-semibold mb-1">HORÁRIO</label>
                     <input 
                       type="text" 
                       placeholder="00:00" 
-                      className="w-full px-3 py-2 bg-black/40 rounded-md text-white placeholder-white/60"
+                      className="w-full px-3 py-1 bg-amber-800/70 rounded-2xl text-white placeholder-amber-100/70"
                     />
                   </div>
                   
                   <button 
                     type="submit" 
-                    className="w-full bg-red-600 text-white font-medium py-2 px-4 rounded-md hover:bg-red-700 transition-colors"
+                    className="w-full bg-red-600 text-white font-medium py-2 px-3 rounded-2xl hover:bg-red-700 transition-colors"
                   >
                     CONFIRMAR RESERVA
                   </button>

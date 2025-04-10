@@ -8,7 +8,7 @@ export default function Header() {
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Menu de navegação centralizado */}
           <nav className="flex-1 flex justify-center items-center text-white text-sm md:text-base">
-            <Link href="#historia" className="hover:text-amber-300 transition-colors px-2">
+            <Link href="#about" className="hover:text-amber-300 transition-colors px-2">
               História
             </Link>
             <span className="text-white px-1">|</span>
@@ -16,7 +16,7 @@ export default function Header() {
               Cardápio
             </Link>
             <span className="text-white px-1">|</span>
-            <Link href="#delivery" className="hover:text-amber-300 transition-colors px-2">
+            <Link href="#about" className="hover:text-amber-300 transition-colors px-2">
               Delivery
             </Link>
             <span className="text-white px-1">|</span>
